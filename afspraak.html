@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+    <meta charset="utf-8">
+    <title>Tandartsafspraak</title>
+    <meta name="tandarts, afspraak">
+    </head>
+    <body>
+        <h1>Tandartsafspraak</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod. Neque vitae tempus quam pellentesque nec. Malesuada fames ac turpis egestas maecenas pharetra convallis. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Viverra vitae congue eu consequat. Eu tincidunt tortor aliquam nulla facilisi. Pulvinar pellentesque habitant morbi tristique senectus et netus et malesuada. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci. Tincidunt augue interdum velit euismod in. Ullamcorper sit amet risus nullam.
+        </p>
+        <figure>
+            <img src="old-time-dentist-sign.jpg" alt="Old dentist sign" width="300">
+        </figure>
+        <figure>
+            <img src="pexels-photo-3881449.jpeg" alt="Mouth open" width="300">
+        </figure>
+        <figure>
+            <img src="tooth-4023604_960_720.jpg" alt="Tooth" width="300">
+        </figure>
+        <form id="contactform" action="https://formspree.io/f/meqwpqgl" method="post">
+            <fieldset>
+                <legend>Persoonlijke gegevens</legend><br>
+                <label for="naam">Naam</label>
+                <input type="text" name="Naam"><br><br>
+                <input type="radio" name="Geslacht" value="man" checked>Man
+                <input type="radio" name="Geslacht" value="vrouw">Vrouw
+                <input type="radio" name="Geslacht" value="anders">Anders<br><br>
+                <label for="adres">Adres:</label>
+                <input type="text" id="adres" name="Adres"><br><br>
+                <label for="postcode">Postcode:</label>
+                <input type="text" id="postcode" name="Postcode"><br><br>
+                <label for="woonplaats">Woonplaats:</label>
+                <input type="text" id="woonplaats" name="Woonplaats"><br><br>
+                <Label for="telefoon">Telefoon:</Label>
+                <input type="tel" id="telefoon" name="Telefoon" pattern="[0-9]{10}"><br><br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="Reply to"><br><br>         
+            </fieldset><br>
+            <fieldset>
+                <legend>Beschrijving van de klachten</legend><br>
+                <b>Welke klachten heeft u</b><br><br>
+                <input type="checkbox" name="Klachten" value="Pijn">Pijn
+                <input type="checkbox" name="Klachten" value="Tandvlees">Tandvlees               
+                <input type="checkbox" name="Klachten" value="Vulling">Vulling
+                <input type="checkbox" name="Klachten" value="Afgebroken tand">Afgebroken tand <br><br>
+                <label for="foto"><b>Selecteer een foto van de klacht</b></label><br><br>
+                <input type="file" id="foto" name="Foto"><br><br>
+            </fieldset><br>
+            <fieldset>
+                <legend>Toelichting van de klachten</legend><br>
+                <b>Kunt u de klachten toelichten?</b><br><br>
+                <textarea name="Toelichting" maxlength="1500"></textarea><br><br>
+                <b>Wanneer wilt u langskomen?</b><br><br>
+                <input type="date" name="Datum">
+            </fieldset><br>
+            <input type="submit" value="Verzenden">
+        </form>
+    </body>
+</html>
